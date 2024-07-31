@@ -32,72 +32,8 @@ path {
 #profile img {
   width: 215px;
   height: 215px;
-}
-
-#profile-text {
-  display: flex;
-  flex-direction: column;
-}
-
-#profile-text h1 {
-  font-size: 46px;
-  line-height: 69px;
-  font-weight: 500;
-  margin: 0;
-}
-
-#profile-text p {
-  font-size: 22px;
-  line-height: 33px;
-  font-weight: 500;
-  margin: 0;
-}
-
-#logos {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-body {
-  background-color: #e7e7e7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: Poppins;
-  gap: 60px;
-  color: #3d3d3d;
-}
-
-path {
-  fill: #3d3d3d;
-}
-
-#logo-circle {
-  width: 80px;
-  height: 80px;
-  background-color: #fff;
   border-radius: 50%;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#logo-circle:hover {
-  opacity: 0.75;
-  cursor: pointer;
-}
-
-#profile {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
-#profile img {
-  width: 215px;
-  height: 215px;
+  border-style: groove;
 }
 
 #profile-text {
@@ -125,7 +61,55 @@ path {
   align-items: center;
   gap: 30px;
 }
+#section2 {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 
+#section3 {
+  display: flex;
+  gap: 20px;
+}
+
+#section3 button {
+  width: 260px;
+  height: 80px;
+  border-radius: 10px;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#section4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  width: 700px;
+  background-color: #171f26;
+  border-radius: 10px;
+}
+.slider-button {
+  width: 349.45px;
+  height: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #171f26;
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+}
+
+#section4 img {
+  margin-bottom: 20px;
+}
 @media (max-width: 620px) {
   body {
     gap: 30px;

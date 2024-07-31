@@ -1,5 +1,18 @@
-const themeButton = document.getElementById("icon-container");
+let theme = "light";
 
-themeButton.onclick = function () {
-  document.body.classList.toggle("dark-theme");
-};
+const themeButton = document.getElementById("logo-circle");
+
+function main() {
+  console.log("clicked");
+  if (theme === "light") {
+    theme = "dark";
+    const webTheme = document.getElementById("theme");
+    webTheme.setAttribute("href", "dark.css");
+  } else {
+    theme = "light";
+    const webTheme = document.getElementById("theme");
+    webTheme.setAttribute("href", "light.css");
+  }
+}
+
+themeButton.addEventListener("click", main);
