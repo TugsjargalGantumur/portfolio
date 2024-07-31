@@ -166,3 +166,8 @@ path {
     line-height: 21px;
   }
 }
+#end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
