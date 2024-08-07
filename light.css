@@ -126,6 +126,26 @@ path {
   display: flex;
   align-items: center;
 }
+.project-card {
+  width: 330px;
+  height: 170px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  margin: 4px;
+}
+#prj-librook {
+  background-image: url("./image/librook.png");
+}
+#prj-burger {
+  background-image: url("./image/burger.png");
+}
+#prj-starbucks {
+  background-image: url("./image/starbucks.png");
+}
+#prj-paypal {
+  background-image: url("./image/Paypal.png");
+}
 @media (max-width: 620px) {
   body {
     gap: 30px;
@@ -204,5 +224,8 @@ path {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .project-card {
+    width: 600px;
   }
 }
